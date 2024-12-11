@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ultimapy",
-    version="0.0.24",
-    author="Jack Ward",
-    author_email="jackward84@gmail.com",
-    description="UltimaPy - Extract information and images from the UO client files",
+    name="uo_sdk-py",
+    version="0.0.01",
+    author="ThatDudeJBob",
+    author_email="thatdudejbob@gmail.com",
+    description="uo_sdk-py - UltimaSDK but for Python Scripting use",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jackuoll/ultima-py",
+    url="https://github.com/ThatDudeJBob/ultima-py",
     packages=setuptools.find_packages(),
     license="Beerware",
     install_requires=[
